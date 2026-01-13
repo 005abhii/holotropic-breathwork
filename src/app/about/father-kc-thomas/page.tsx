@@ -17,10 +17,10 @@ export default function FatherKCThomasPage() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-4">
-              Father KC Thomas
+              Fr. KC Thomas SDB
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-earth-100">
-              Certified Holotropic Breathwork Facilitator & Spiritual Guide
+              Certified Holotropic Breathwork™ Facilitator & Spiritual Guide
             </p>
           </motion.div>
         </div>
@@ -78,8 +78,8 @@ export default function FatherKCThomasPage() {
                 </h2>
                 <div className="prose prose-base sm:prose-lg max-w-none text-gray-700 space-y-4 sm:space-y-6">
                   <p className="text-base sm:text-lg leading-relaxed">
-                    Father KC Thomas has dedicated his life to the integration of spiritual wisdom
-                    and therapeutic healing. As a certified Holotropic Breathwork facilitator trained
+                    Fr. KC Thomas SDB has dedicated his life to the integration of spiritual wisdom
+                    and therapeutic healing. As a certified Holotropic Breathwork™ facilitator trained
                     in the Grof Transpersonal Training tradition, he brings together the ancient
                     spiritual traditions of India with cutting-edge approaches to consciousness
                     exploration and transformation.
@@ -105,7 +105,7 @@ export default function FatherKCThomasPage() {
                       Grof Transpersonal Training (GTT)
                     </div>
                     <div className="text-sm text-gray-600">
-                      Certified Holotropic Breathwork Facilitator
+                      Certified Holotropic Breathwork™ Facilitator
                     </div>
                   </div>
                   <div className="border-l-4 border-earth-600 pl-4 sm:pl-6 py-2">
@@ -133,14 +133,14 @@ export default function FatherKCThomasPage() {
                 </h3>
                 <div className="prose max-w-none text-gray-700 space-y-4">
                   <p>
-                    Father KC's facilitation style is characterized by deep presence, compassion,
+                    Fr. KC's facilitation style is characterized by deep presence, compassion,
                     and trust in the inherent wisdom of the psyche. He creates a sacred container
                     where participants feel safe to explore the depths of their consciousness,
                     knowing they are held with care and respect.
                   </p>
                   <p>
                     His unique contribution lies in his ability to integrate the spiritual richness
-                    of Indian mysticism with the therapeutic framework of Holotropic Breathwork.
+                    of Indian mysticism with the therapeutic framework of Holotropic Breathwork™.
                     This synthesis honors both the transcendent and the deeply personal dimensions
                     of healing, recognizing that true transformation encompasses both psychological
                     and spiritual dimensions.
@@ -156,28 +156,27 @@ export default function FatherKCThomasPage() {
 
               <div>
                 <h3 className="text-xl sm:text-2xl font-serif font-bold text-earth-900 mb-4">
-                  Teaching & Training
+                  Workshops & Retreats
                 </h3>
                 <div className="prose max-w-none text-gray-700 space-y-4">
                   <p>
-                    Beyond facilitating individual sessions and retreats, Father KC is dedicated
-                    to training the next generation of Holotropic Breathwork facilitators. His
-                    facilitator training program in Bangalore is recognized for its depth,
-                    integrity, and comprehensive approach to both the theoretical foundations
-                    and practical skills of this work.
+                    Fr. KC facilitates regular workshops and retreats at Vidyavanam Ashram in Bangalore,
+                    offering participants the opportunity to experience the profound healing potential
+                    of Holotropic Breathwork™. These residential programs are carefully designed to
+                    provide a safe container for deep exploration and transformation.
                   </p>
                   <p>
-                    His teaching emphasizes not only technique but also the cultivation of
-                    facilitator presence, ethical awareness, and ongoing personal growth. He
-                    believes that effective facilitation flows from one's own inner work and
-                    commitment to consciousness exploration.
+                    He is also GTT's (Grof Transpersonal Training) representative in India, bringing
+                    this authentic practice to seekers across the country. His workshops emphasize
+                    not only the breathwork experience but also integration, community support, and
+                    ongoing personal growth.
                   </p>
                 </div>
               </div>
 
               <div className="bg-earth-50 rounded-lg p-6 sm:p-8">
                 <h3 className="text-xl sm:text-2xl font-serif font-bold text-earth-900 mb-4">
-                  Words from Father KC
+                  Words from Fr. KC
                 </h3>
                 <blockquote className="text-lg italic text-gray-700 border-l-4 border-earth-600 pl-4 sm:pl-6">
                   "The breath is our most intimate companion, the bridge between life and
@@ -192,16 +191,16 @@ export default function FatherKCThomasPage() {
 
               <div className="flex flex-col sm:flex-row gap-4 pt-8">
                 <Link
-                  href="/contact"
+                  href="/events"
                   className="w-full sm:w-auto inline-flex items-center justify-center rounded-md bg-earth-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-earth-700 transition-colors"
                 >
-                  Connect with Father KC
+                  View Upcoming Events
                 </Link>
                 <Link
-                  href="/training"
+                  href="/contact"
                   className="w-full sm:w-auto inline-flex items-center justify-center rounded-md border-2 border-earth-600 px-6 py-3 text-base font-semibold text-earth-600 hover:bg-earth-50 transition-colors"
                 >
-                  Explore Training
+                  Contact Fr. KC
                 </Link>
               </div>
             </motion.div>

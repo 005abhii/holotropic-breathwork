@@ -11,19 +11,18 @@ const navigation = [
     name: 'About',
     href: '/about',
     subItems: [
-      { name: 'Father KC Thomas', href: '/about/father-kc-thomas' },
-      { name: 'What is Holotropic Breathwork', href: '/about/holotropic-breathwork' },
+      { name: 'Fr. KC Thomas SDB', href: '/about/father-kc-thomas' },
+      { name: 'What is Holotropic Breathwork™', href: '/about/holotropic-breathwork' },
     ]
   },
   {
     name: 'Experience',
     href: '/sessions',
     subItems: [
-      { name: 'Sessions & Retreats', href: '/sessions' },
+      { name: 'Workshops & Retreats', href: '/sessions' },
       { name: 'Events Calendar', href: '/events' },
     ]
   },
-  { name: 'Facilitator Training', href: '/training' },
   { name: 'Resources', href: '/resources' },
   { name: 'Testimonials', href: '/testimonials' },
   { name: 'FAQ & Safety', href: '/faq' },

@@ -7,69 +7,19 @@ import Link from 'next/link';
 export default function SessionsPage() {
   const offerings = [
     {
-      id: 'individual',
-      title: 'One-Day Workshops',
-      duration: '8-10 hours',
-      participants: '12-20 people',
-      price: '₹8,000',
-      description: 'Experience a full Holotropic Breathwork session in a supportive group setting. Includes one complete breathwork session (both as breather and sitter), mandala creation, and sharing circle.',
+      id: 'workshops',
+      title: 'Workshops & Retreats',
+      duration: '4 days (residential)',
+      participants: 'Small intimate groups',
+      price: 'Your Contribution: ₹11,200',
+      description: 'A transformative 4-day residential experience at Vidyavanam Ashram, Bangalore. All workshops and retreats are residential as this is a very deep process. Experience profound healing in a natural setting with ongoing integration support.',
       features: [
-        'One complete breathwork experience',
-        'Experienced facilitator guidance',
-        'Group support and sharing',
-        'Mandala creation for integration',
-        'Light refreshments included',
-        'Integration resources provided'
-      ]
-    },
-    {
-      id: 'weekend',
-      title: 'Weekend Intensives',
-      duration: '2-3 days',
-      participants: '15-25 people',
-      price: '₹18,000',
-      description: 'Immerse yourself in a weekend of deep exploration with two full breathwork sessions, extended integration time, teachings on the holotropic paradigm, and community building.',
-      features: [
-        'Two complete breathwork sessions',
-        'Extended integration sessions',
-        'Teachings on holotropic principles',
+        '6 Breathwork sessions (3 as breather and 3 as sitter)',
         'Group process and sharing',
-        'Meals and accommodations available',
-        'Follow-up integration support'
-      ]
-    },
-    {
-      id: 'retreat',
-      title: 'Residential Retreats',
-      duration: '5-7 days',
-      participants: '12-18 people',
-      price: '₹45,000 - ₹65,000',
-      description: 'Transform your life in our immersive residential retreats. Multiple breathwork sessions combined with meditation, nature connection, bodywork, and deep community in beautiful natural settings.',
-      features: [
-        '3-4 breathwork sessions',
-        'Daily meditation and yoga',
-        'Nature walks and contemplation',
-        'Optional bodywork sessions',
-        'All meals and accommodation',
-        'Beautiful natural setting',
-        'Small group for deep connection',
-        'Comprehensive integration support'
-      ]
-    },
-    {
-      id: 'monthly',
-      title: 'Monthly Circles',
-      duration: '1 day',
-      participants: '8-15 people',
-      price: '₹3,500',
-      description: 'Join our regular monthly practice circles for ongoing support in your breathwork journey. Open to those who have completed at least one workshop.',
-      features: [
-        'Regular practice opportunity',
-        'Ongoing community support',
-        'Deepening of practice',
-        'Integration of previous sessions',
-        'Special themes each month',
-        'Priority booking for events'
+        'Integration sessions',
+        'Food and accommodation in a natural setting',
+        'All sessions at Vidyavanam Ashram, Bangalore',
+        'Ongoing integration support'
       ]
     }
   ];
@@ -85,10 +35,10 @@ export default function SessionsPage() {
             animate={{ opacity: 1, y: 0 }}
           >
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-white mb-4">
-              Sessions & Retreats
+              Workshops & Retreats
             </h1>
             <p className="text-base sm:text-base sm:text-lg md:text-xl text-earth-100">
-              Choose the experience that's right for your journey
+              Transformative Holotropic Breathwork™ experiences at Vidyavanam Ashram
             </p>
           </motion.div>
         </div>

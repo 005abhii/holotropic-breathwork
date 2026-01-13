@@ -12,8 +12,8 @@ export default function Footer() {
               Holotropic Breathwork India
             </h3>
             <p className="text-earth-200 text-sm leading-relaxed">
-              Led by Father KC Thomas, we offer authentic Holotropic Breathwork
-              sessions, retreats, and facilitator training in Bangalore and across India.
+              Led by Fr. KC Thomas SDB, we offer authentic Holotropic Breathwork™
+              sessions, workshops, and retreats in Bangalore and across India.
             </p>
           </div>
 
@@ -23,17 +23,12 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/about/holotropic-breathwork" className="text-earth-200 hover:text-white transition-colors">
-                  What is Holotropic Breathwork
+                  What is Holotropic Breathwork™
                 </Link>
               </li>
               <li>
                 <Link href="/sessions" className="text-earth-200 hover:text-white transition-colors">
-                  Sessions & Retreats
-                </Link>
-              </li>
-              <li>
-                <Link href="/training" className="text-earth-200 hover:text-white transition-colors">
-                  Facilitator Training
+                  Workshops & Retreats
                 </Link>
               </li>
               <li>

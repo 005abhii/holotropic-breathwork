@@ -7,9 +7,9 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Holotropic Breathwork India | Father KC Thomas",
-  description: "Experience transformative Holotropic Breathwork sessions, retreats, and facilitator training in Bangalore with Father KC Thomas. Discover healing through breathwork.",
-  keywords: "holotropic breathwork, breathwork India, Father KC Thomas, facilitator training, healing retreats, Bangalore breathwork, consciousness exploration",
+  title: "Holotropic Breathwork India | Fr. KC Thomas SDB",
+  description: "Experience transformative Holotropic Breathwork™ sessions, retreats, and workshops in Bangalore with Fr. KC Thomas SDB. Discover healing through breathwork.",
+  keywords: "holotropic breathwork, breathwork India, Fr. KC Thomas SDB, healing retreats, Bangalore breathwork, consciousness exploration, workshops",
 };
 
 export default function RootLayout({

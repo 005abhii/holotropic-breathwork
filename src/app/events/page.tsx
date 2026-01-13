@@ -40,7 +40,7 @@ export default function EventsPage() {
               Events Calendar
             </h1>
             <p className="text-base sm:text-base sm:text-lg md:text-xl text-earth-100">
-              Join us for transformative breathwork experiences throughout the year
+              Join us for transformative Holotropic Breathwork™ experiences throughout the year
             </p>
           </motion.div>
         </div>
@@ -140,18 +140,34 @@ export default function EventsPage() {
             </div>
           ))}
 
+          {/* Note about second half */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="bg-earth-100 border-l-4 border-earth-600 rounded-lg p-6 sm:p-8 mb-12"
+          >
+            <h3 className="text-xl font-semibold text-earth-900 mb-2">
+              Second Half of 2026
+            </h3>
+            <p className="text-gray-700">
+              Workshops and retreats for the second half of 2026 will be announced later.
+              Stay connected with us for updates on upcoming dates.
+            </p>
+          </motion.div>
+
           {/* CTA */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="bg-earth-50 rounded-lg p-6 sm:p-8 md:p-12 text-center mt-12 sm:mt-14 md:mt-16"
+            className="bg-earth-50 rounded-lg p-6 sm:p-8 md:p-12 text-center"
           >
             <h3 className="text-2xl md:text-2xl sm:text-3xl font-serif font-bold text-earth-900 mb-4">
-              Don't See What You're Looking For?
+              Questions or Special Requests?
             </h3>
             <p className="text-lg text-gray-700 mb-4 sm:mb-6">
-              Contact us to inquire about private sessions, group retreats, or custom events
+              Contact us for inquiries about the workshops and retreats
             </p>
             <Link
               href="/contact"

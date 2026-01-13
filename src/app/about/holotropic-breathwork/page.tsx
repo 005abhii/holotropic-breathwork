@@ -16,7 +16,7 @@ export default function HolotropicBreathworkPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-3xl sm:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-4"
           >
-            What is Holotropic Breathwork?
+            What is Holotropic Breathwork™?
           </motion.h1>
         </div>
       </section>
@@ -31,7 +31,7 @@ export default function HolotropicBreathworkPage() {
             className="prose prose-lg max-w-none"
           >
             <p className="text-base sm:text-base sm:text-lg leading-relaxed text-gray-700 mb-6 sm:mb-8">
-              Holotropic Breathwork is a powerful approach to self-exploration and healing that
+              Holotropic Breathwork™ is a powerful approach to self-exploration and healing that
               combines accelerated breathing, evocative music, focused bodywork, and mandala drawing
               in a safe, supportive environment.
             </p>
@@ -78,7 +78,7 @@ export default function HolotropicBreathworkPage() {
               The Origins
             </h2>
             <p>
-              Developed by Dr. Stanislav Grof and Christina Grof in the 1970s, Holotropic Breathwork
+              Developed by Dr. Stanislav Grof and Christina Grof in the 1970s, Holotropic Breathwork™
               emerged from decades of research into non-ordinary states of consciousness. The word
               "holotropic" means "moving toward wholeness" (from Greek holos = whole, trepein = moving toward).
             </p>
@@ -120,7 +120,7 @@ export default function HolotropicBreathworkPage() {
             </div>
 
             <h2 className="text-2xl sm:text-3xl font-serif font-bold text-earth-900 mb-4 sm:mb-6 mt-8 sm:mt-10 md:mt-12">
-              Benefits of Holotropic Breathwork
+              Benefits of Holotropic Breathwork™
             </h2>
             <ul className="space-y-3">
               <li>Release of emotional and physical trauma</li>

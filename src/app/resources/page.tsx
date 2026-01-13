@@ -36,7 +36,7 @@ export default function ResourcesPage() {
               Resources & Insights
             </h1>
             <p className="text-base sm:text-base sm:text-lg md:text-xl text-earth-100">
-              Deepen your understanding of Holotropic Breathwork and consciousness exploration
+              Deepen your understanding of Holotropic Breathwork™ and consciousness exploration
             </p>
           </motion.div>
         </div>
@@ -51,10 +51,84 @@ export default function ResourcesPage() {
             viewport={{ once: true }}
           >
             <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-              Explore articles, research findings, and practical guides to support your journey
+              Explore videos, articles, research findings, and practical guides to support your journey
               of self-discovery and healing. These resources offer insights into the holotropic
               paradigm, practical guidance for your practice, and perspectives on consciousness exploration.
             </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Videos Section */}
+      <section className="py-12 sm:py-16 bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-2xl sm:text-3xl font-serif font-bold text-earth-900 mb-6 sm:mb-8 text-center">
+              Video Resources
+            </h2>
+            <p className="text-center text-gray-600 mb-8 sm:mb-12 max-w-3xl mx-auto">
+              Watch these videos to deepen your understanding of Holotropic Breathwork™ and learn more about the practice from Fr. KC Thomas SDB.
+            </p>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              {/* Video 1 */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.1 }}
+                className="bg-white rounded-lg shadow-lg overflow-hidden"
+              >
+                <div className="relative aspect-video">
+                  <iframe
+                    className="absolute inset-0 w-full h-full"
+                    src="https://www.youtube.com/embed/wqmH7-TJzwo"
+                    title="Holotropic Breathwork Video 1"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-earth-900 mb-2">
+                    Introduction to Holotropic Breathwork™
+                  </h3>
+                  <p className="text-gray-600">
+                    Learn about the foundations and practice of Holotropic Breathwork™ with Fr. KC Thomas SDB.
+                  </p>
+                </div>
+              </motion.div>
+
+              {/* Video 2 */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.2 }}
+                className="bg-white rounded-lg shadow-lg overflow-hidden"
+              >
+                <div className="relative aspect-video">
+                  <iframe
+                    className="absolute inset-0 w-full h-full"
+                    src="https://www.youtube.com/embed/RPFAlK_uOgY"
+                    title="Holotropic Breathwork Video 2"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-earth-900 mb-2">
+                    Understanding the Healing Process
+                  </h3>
+                  <p className="text-gray-600">
+                    Explore the transformative healing potential of Holotropic Breathwork™ practice.
+                  </p>
+                </div>
+              </motion.div>
+            </div>
           </motion.div>
         </div>
       </section>
@@ -204,7 +278,7 @@ export default function ResourcesPage() {
             </h2>
             <p className="text-base sm:text-base sm:text-lg md:text-xl text-earth-100 mb-6 sm:mb-8 max-w-2xl mx-auto">
               These resources are just the beginning. Experience the transformative power
-              of Holotropic Breathwork firsthand.
+              of Holotropic Breathwork™ firsthand.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

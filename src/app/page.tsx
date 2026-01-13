@@ -29,7 +29,7 @@ export default function Home() {
               Journey Within
             </h1>
             <p className="mt-4 sm:mt-6 text-base sm:text-lg md:text-xl lg:text-2xl text-earth-100 max-w-3xl mx-auto leading-relaxed px-4">
-              Discover the transformative power of Holotropic Breathwork with Father KC Thomas
+              Discover the transformative power of Holotropic Breathwork™ with Fr. KC Thomas SDB
             </p>
             <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
               <Link
@@ -67,10 +67,10 @@ export default function Home() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-earth-900 mb-4 sm:mb-6">
-                What is Holotropic Breathwork?
+                What is Holotropic Breathwork™?
               </h2>
               <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-4 sm:mb-6">
-                Holotropic Breathwork is a powerful approach to self-exploration and healing that
+                Holotropic Breathwork™ is a powerful approach to self-exploration and healing that
                 induces non-ordinary states of consciousness through accelerated breathing, evocative
                 music, and focused energy release work.
               </p>
@@ -110,7 +110,7 @@ export default function Home() {
               Experience Transformation
             </h2>
             <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-4">
-              Join us in exploring the depths of consciousness through authentic Holotropic Breathwork
+              Join us in exploring the depths of consciousness through authentic Holotropic Breathwork™
             </p>
           </div>
 
@@ -124,17 +124,17 @@ export default function Home() {
               {
                 icon: Users,
                 title: 'Expert Guidance',
-                description: 'Learn from Father KC Thomas, a certified and experienced facilitator'
+                description: 'Learn from Fr. KC Thomas SDB, a certified and experienced facilitator'
               },
               {
                 icon: Award,
-                title: 'Authentic Training',
-                description: 'Comprehensive facilitator certification program in Bangalore'
+                title: 'Authentic Practice',
+                description: 'Experience genuine Holotropic Breathwork™ in a natural setting'
               },
               {
                 icon: Calendar,
                 title: 'Regular Sessions',
-                description: 'Monthly workshops, retreats, and ongoing practice circles'
+                description: 'Multiple workshops and retreats throughout the year'
               }
             ].map((feature, index) => (
               <motion.div
@@ -237,7 +237,7 @@ export default function Home() {
               Voices of Transformation
             </h2>
             <p className="text-lg text-earth-200 max-w-2xl mx-auto">
-              Hear from those who have experienced profound healing through Holotropic Breathwork
+              Hear from those who have experienced profound healing through Holotropic Breathwork™
             </p>
           </div>
 
@@ -296,21 +296,21 @@ export default function Home() {
               Begin Your Journey of Healing
             </h2>
             <p className="text-xl text-earth-100 mb-10 leading-relaxed">
-              Whether you're seeking personal transformation or training to facilitate this
-              powerful work, we invite you to take the first step.
+              Join us for transformative Holotropic Breathwork™ workshops and retreats
+              in the peaceful setting of Vidyavanam Ashram, Bangalore.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/contact"
+                href="/events"
                 className="rounded-md bg-white px-8 py-3 text-base font-semibold text-earth-900 shadow-lg hover:bg-earth-50 transition-all transform hover:scale-105"
               >
-                Contact Us
+                View Calendar
               </Link>
               <Link
-                href="/training"
+                href="/contact"
                 className="rounded-md border-2 border-white px-8 py-3 text-base font-semibold text-white hover:bg-white hover:text-earth-900 transition-all"
               >
-                Explore Training
+                Contact Us
               </Link>
             </div>
           </motion.div>
