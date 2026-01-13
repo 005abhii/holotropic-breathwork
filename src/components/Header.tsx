@@ -56,7 +56,7 @@ export default function Header() {
           <div className="flex items-center flex-shrink-0">
             <Link href="/" className="flex items-center">
               <div className="text-base sm:text-lg md:text-xl lg:text-2xl font-serif font-bold text-earth-800 whitespace-nowrap">
-                Holotropic Breathwork
+                Holotropic Breathwork™
               </div>
             </Link>
           </div>
